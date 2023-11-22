@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
+  
   <title>Checkout</title>
   @vite('resources/css/app.css')
 
 </head>
 <body>
-  <div class="bg-[rgba(255, 255, 255, 1)]">
+  <div class="bg-white">
     <div class="px-20 pt-7">
       <div>
         <button class="selectbutton px-6 py-3 rounded-2xl text-base">
