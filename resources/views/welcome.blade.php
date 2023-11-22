@@ -63,6 +63,51 @@
         <p class="text-lg pt-4 pb-8">Jangan lewatkan event-event seru di MARKAS</p>
       </div>
 
+      <div class="w-full flex gap-10 justify-center mb-8">
+        <div class="w-3/12">
+          <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
+          </div>
+          
+          <div class="border-2 border-solid border-black">
+          <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
+          </div>
+
+          <div class="bg-[#D90027] text-center text-sm flex text-slate-200 justify-between border-2 border-solid border-black">
+            <h1 class="mx-2 my-2">SURABAYA</h1>
+            <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
+          </div>
+        </div>
+
+        <div class="w-3/12">
+          <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
+          </div>
+          
+          <div class="border-2 border-solid border-black">
+          <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
+          </div>
+
+          <div class="bg-[#D90027] text-center text-sm flex text-slate-200 justify-between border-2 border-solid border-black">
+            <h1 class="mx-2 my-2">SURABAYA</h1>
+            <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
+          </div>
+        </div>
+
+        <div class="w-3/12">
+          <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
+          </div>
+          
+          <div class="border-2 border-solid border-black">
+          <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
+          </div>
+
+          <div class="bg-[#D90027] text-center text-sm flex text-slate-200 justify-between border-2 border-solid border-black">
+            <h1 class="mx-2 my-2">SURABAYA</h1>
+            <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
+          </div>
+        </div>
+
+      </div>
+
       <div class="w-full flex gap-10 justify-center">
         <div class="w-3/12">
           <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
@@ -105,10 +150,12 @@
             <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
           </div>
         </div>
+
+        
       </div>
     
 
-      <div>
+      <div class="mt-16">
         <h1 class="text-2xl text-[#D90027] text-center font-semibold mb-4">
           FILOSOFI
         </h1>
@@ -116,8 +163,53 @@
         <p class="text-center">Sejak diinisiasi di tahun 2016, semangat #1000StartupDigital adalah untuk berkolaborasi <br> membuat ekosistem startup Indonesia menjadi inklusif dan kolaboratif.</p>
       </div>
 
+      <div class="w-full flex gap-10 justify-center">
+        <div class="w-3/12">
+          <div style="background-image: url({{ asset('img/img1.png') }});" class="w-full h-48 bg-cover">
+          </div>
+          
+          <div class="">
+          <p class="text-[#D90027] mt-2">Gain Knowledge</p>
+          <h1 class="text-lg font-bold my-1">Ruang Belajar</h1>
+          <p>MARKAS sangat mengedepankan kegunaan ruang untuk menunjang aktivitas penggunanya.</p>
+          </div>
+
+          
+        </div>
+
+        <div class="w-3/12">
+          <div style="background-image: url({{ asset('img/img2.png') }});" class="w-full h-48 bg-cover">
+          </div>
+          
+          <div class="">
+          <p class="text-[#D90027] mt-2">Gain Knowledge</p>
+          <h1 class="text-lg font-bold my-1">Ruang Belajar</h1>
+          <p>MARKAS sangat mengedepankan kegunaan ruang untuk menunjang aktivitas penggunanya.</p>
+          </div>
+
+          
+        </div>
+
+        <div class="w-3/12">
+          <div style="background-image: url({{ asset('img/img3.png') }});" class="w-full h-48 bg-cover">
+          </div>
+          
+          <div class="">
+          <p class="text-[#D90027] mt-2">Gain Knowledge</p>
+          <h1 class="text-lg font-bold my-1">Ruang Belajar</h1>
+          <p>MARKAS sangat mengedepankan kegunaan ruang untuk menunjang aktivitas penggunanya.</p>
+          </div>
+
+          
+        </div>
+
+       
+        </div>
+
+      </div>
+
        <div class="text-center">
-          <button class="backbutton py-2 rounded-2xl bg-[#D90027] text-white px-8 text-lg mt-14 mb-6">
+          <button class="backbutton py-2 rounded-2xl bg-[#D90027] text-white px-8 text-lg mt-14 mb-16">
           Cari Tahu Lebih
           </button>
         </div>
@@ -135,10 +227,10 @@
         </div>
       </div>
 
-      <div class="text-center">
-        <h1 class="text-xl font-semibold text-[#D90027]">KARAKTERISTIK</h1>
-        <h1 class="text-2xl font-bold">10 KARAKTER MARKAS</h1>
-        <p>Sejak diinisiasi di tahun 2016, semangat #1000StartupDigital adalah untuk berkolaborasi <br> membuat ekosistem startup Indonesia menjadi inklusif dan kolaboratif.</p>
+      <div class="text-center mt-24">
+        <h1 class="text-xl font-semibold text-[#D90027] mb-6">KARAKTERISTIK</h1>
+        <h1 class="text-2xl font-bold mb-6">10 KARAKTER MARKAS</h1>
+        <p class="mb-10">Sejak diinisiasi di tahun 2016, semangat #1000StartupDigital adalah untuk berkolaborasi <br> membuat ekosistem startup Indonesia menjadi inklusif dan kolaboratif.</p>
       </div>
 
       <div class="text-center">
@@ -189,7 +281,7 @@
       </div>
 
       <div class="text-center">
-          <button class="backbutton py-2 rounded-2xl bg-[#D90027] text-white px-8 text-lg mt-12 mb-6">
+          <button class="backbutton py-2 rounded-2xl bg-[#D90027] text-white px-8 text-lg mt-10 mb-6">
           Cari Tahu Lebih
           </button>
         </div>
