@@ -3,4 +3,4 @@
     {{ $text }}
 </title>
 </head>
-<body style="background-image: url({{ assetw('img/bg-texture.png') }});">
+<body style="background-image: url({{ asset('img/bg-texture.png') }});">
