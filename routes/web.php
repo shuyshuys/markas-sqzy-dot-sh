@@ -24,6 +24,10 @@ Route::get('/checkout', function () {
     return view('checkout');
 });
 
+Route::get('/event', function () {
+    return view('event');
+});
+
 Route::get('/event/reservation', function () {
     return view('reservation');
 });
