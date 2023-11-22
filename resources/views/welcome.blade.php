@@ -160,7 +160,7 @@
           FILOSOFI
         </h1>
         <h1 class="text-4xl text-center font-bold mb-5">INKLUSIF dan KOLABORATIF</h1>
-        <p class="text-center">Sejak diinisiasi di tahun 2016, semangat #1000StartupDigital adalah untuk berkolaborasi <br> membuat ekosistem startup Indonesia menjadi inklusif dan kolaboratif.</p>
+        <p class="text-center pb-8">Sejak diinisiasi di tahun 2016, semangat #1000StartupDigital adalah untuk berkolaborasi <br> membuat ekosistem startup Indonesia menjadi inklusif dan kolaboratif.</p>
       </div>
 
       <div class="w-full flex gap-10 justify-center">
@@ -227,25 +227,30 @@
         </div>
       </div>
 
-      <div class="text-center mt-24">
+      <div style="background-image: url({{ asset('img/bg-texture.png') }});" class="text-center pt-24">
+
+        <div>
         <h1 class="text-xl font-semibold text-[#D90027] mb-6">KARAKTERISTIK</h1>
-        <h1 class="text-2xl font-bold mb-6">10 KARAKTER MARKAS</h1>
+        <h1 class="text-2xl font-bold pb-6">10 KARAKTER MARKAS</h1>
         <p class="mb-10">Sejak diinisiasi di tahun 2016, semangat #1000StartupDigital adalah untuk berkolaborasi <br> membuat ekosistem startup Indonesia menjadi inklusif dan kolaboratif.</p>
       </div>
 
-      <div class="text-center">
-        <button class="py-1 rounded-2xl bg-white text-black px-8 text-lg mt-2 font-semibold border-black  border-2">
+      <div style="background-image: url({{ asset('img/bg-texture.png') }});">
+        <div><div class="text-center">
+        <button class="py-1 rounded-2xl bg-white text-black px-8 text-lg pt-2 font-semibold border-black  border-2">
           🚀 VISIONARY
         </button>
 
-        <button class="py-1 rounded-2xl bg-white text-black px-8 text-lg mt-2 font-semibold border-black  border-2">
+        <button class="py-1 rounded-2xl bg-white text-black px-8 text-lg pt-2 font-semibold border-black  border-2">
           👟️ EXTRAMILE
         </button>
 
-        <button class="py-1 rounded-2xl bg-white text-black px-8 text-lg mt-2 font-semibold border-black  border-2">
+        <button class="py-1 rounded-2xl bg-white text-black px-8 text-lg pt-2 font-semibold border-black  border-2">
           🧠 STRATEGIC
-        </button>
-      </div>
+        </button></div>
+        </div>
+        
+     
 
       <div class="text-center">
         <button class="py-1 rounded-2xl bg-white text-black px-8 text-lg mt-3  font-semibold border-black  border-2">
@@ -280,11 +285,24 @@
 
       </div>
 
+      </div>
+      
       <div class="text-center">
-          <button class="backbutton py-2 rounded-2xl bg-[#D90027] text-white px-8 text-lg mt-10 mb-6">
+          <button class="backbutton py-2 rounded-2xl bg-[#D90027] text-white px-8 text-lg mt-10 mb-40">
           Cari Tahu Lebih
           </button>
         </div>
+      </div>
+
+      <div style="background-image: url({{ asset('img/bg-texture.png') }});">
+        <div style="background-image: url({{ asset('img/shape.png') }});" class="w-full h-[400px] bg-cover">
+
+          <div class="pt-28 mx-20">
+          <h1 class="text-3xl font-semibold text-white">APA KATA MEREKA</h1>
+          <p class="text-lg text-white pt-4">⭐ 4.6 | 30 Ulasan di Google</p>
+          </div>
+        </div>
+      </div>
 
       <div class="mt-40">
 
