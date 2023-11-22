@@ -8,28 +8,103 @@
    @vite('resources/css/app.css')
 </head>
 <body>
-  <div class="bg-white">
-    <div class="bg-[#D90027]">
-      <h1 class="text-white text-xl py-5 font-semibold text-center">INI HEADER SEMENTARA</h1>
+  <div style="background-image: url({{ asset('img/bg-texture.png') }});">
+    <div>
+      <div class="py-5 px-20 flex justify-between">
+  
+        <a href="index.html" class="text-3xl text-[#D90027] font-semibold">MARKAS</a>
+         
+        <ul class="flex gap-10 text-xl text-[#D90027]">
+        
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+
+          <li>
+            <a href="index.html">About</a>
+          </li>
+
+          <li>
+            <a href="index.html">Philosophy</a>
+          </li>
+
+           <li>
+            <a href="index.html">Events</a>
+          </li>
+
+          <li>
+            <a href="index.html">Booking</a>
+          </li>
+
+          <li>
+            <a href="index.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      
     </div>
 
     <div class="bg-black py-40">
-      <h1 class="text-5xl text-center text-white">
+      <h1 class="text-7xl text-center font-semibold text-white">
         MARKAS
       </h1>
-      <p class="text-xl text-center text-white mt-4">
+      <p class="text-2xl text-center text-white mt-10">
         A hub for startup founders to grow with the ecosystem.
       </p>
     </div>
 
     <div class="bg-[#D90027]">
-      <h1 class="text-white text-xl py-5 font-semibold text-center">GAIN KNOWLEDGE - GET MENTORED - EXPAND NETWORK</h1>
+      <h1 class="text-white text-3xl py-5 font-semibold text-center">GAIN KNOWLEDGE - GET MENTORED - EXPAND NETWORK</h1>
     </div>
 
     <div class="px-20">
-      <div>
+      <div class="mt-20">
         <h1 class="font-bold text-4xl">IKUTI KEGIATAN KAMI DI MARKAS</h1>
-        <p class="text-base pt-3">Jangan lewatkan event-event seru di MARKAS</p>
+        <p class="text-lg pt-4 pb-8">Jangan lewatkan event-event seru di MARKAS</p>
+      </div>
+
+      <div class="w-full flex gap-10 justify-center">
+        <div class="w-3/12">
+          <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
+          </div>
+          
+          <div class="border-2 border-solid border-black">
+          <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
+          </div>
+
+          <div class="bg-[#D90027] text-center text-sm flex text-slate-200 justify-between border-2 border-solid border-black">
+            <h1 class="mx-2 my-2">SURABAYA</h1>
+            <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
+          </div>
+        </div>
+
+        <div class="w-3/12">
+          <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
+          </div>
+          
+          <div class="border-2 border-solid border-black">
+          <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
+          </div>
+
+          <div class="bg-[#D90027] text-center text-sm flex text-slate-200 justify-between border-2 border-solid border-black">
+            <h1 class="mx-2 my-2">SURABAYA</h1>
+            <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
+          </div>
+        </div>
+
+        <div class="w-3/12">
+          <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
+          </div>
+          
+          <div class="border-2 border-solid border-black">
+          <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
+          </div>
+
+          <div class="bg-[#D90027] text-center text-sm flex text-slate-200 justify-between border-2 border-solid border-black">
+            <h1 class="mx-2 my-2">SURABAYA</h1>
+            <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
+          </div>
+        </div>
       </div>
     
 

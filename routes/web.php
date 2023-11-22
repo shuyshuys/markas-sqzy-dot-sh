@@ -33,4 +33,4 @@ Route::controller(BookingScheduleController::class)->group(function () {
     Route::get('/booking/checkout', 'checkout');
 });
 
-Route::resource('booking', BookingController::class);
+Route::resource('/booking', BookingController::class);
