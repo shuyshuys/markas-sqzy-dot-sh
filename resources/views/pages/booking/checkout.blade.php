@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
-  
+
   <title>Checkout</title>
   @vite('resources/css/app.css')
 
@@ -31,9 +31,9 @@
       </div>
 
       <div class="flex justify-center mt-28">
-        <button class="backbutton py-3 rounded-2xl bg-[#D90027] text-white px-10 text-lg">
+        <a class="backbutton py-3 rounded-2xl bg-[#D90027] text-white px-10 text-lg" href="/home">
          Kembali ke beranda
-        </button>
+        </a>
       </div>
 
 

@@ -11,4 +11,9 @@ class BookingScheduleController extends Controller
     {
         return view('pages/booking/schedule');
     }
+
+    public function checkout(){
+        return view('pages/booking/checkout');
+    }
+
 }

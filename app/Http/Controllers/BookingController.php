@@ -24,7 +24,8 @@ class BookingController extends Controller
      */
     public function create()
     {
-        return view('booking.form');
+        // return view('booking.form');
+        return view('pages.booking.reservation');
     }
 
     /**
@@ -47,7 +48,7 @@ class BookingController extends Controller
         $validate['approval'] = 0;
         // var_dump($validate);
         Booking::create($validate);
-        return redirect('checkout')->with('success','Product created successfully.');
+        return redirect('booking/checkout')->with('success','Product created successfully.');
     }
 
     /**

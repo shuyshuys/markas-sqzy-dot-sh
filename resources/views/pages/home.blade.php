@@ -25,7 +25,7 @@
      <h1 class="font-bold text-4xl">IKUTI KEGIATAN KAMI DI MARKAS</h1>
      <p class="text-base pt-3">Jangan lewatkan event-event seru di MARKAS</p>
    </div>
- 
+
 
    <div>
      <h1 class="text-2xl text-[#D90027] text-center font-semibold mb-4">
