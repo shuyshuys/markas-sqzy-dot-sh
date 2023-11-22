@@ -14,7 +14,11 @@ use App\Http\Controllers\BookingController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/home', function () {
+    return view('home');
 });
 
 
