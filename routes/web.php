@@ -24,6 +24,10 @@ Route::get('/checkout', function () {
     return view('checkout');
 });
 
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
 Route::get('/event', function () {
     return view('event');
 });
@@ -33,4 +37,3 @@ Route::get('/event/reservation', function () {
 });
 
 Route::resource('booking', BookingController::class);
-
