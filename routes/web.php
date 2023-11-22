@@ -3,6 +3,7 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookingController;
+use App\Http\Controllers\BookingScheduleController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,7 +19,6 @@ Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'index');
     Route::get('/home', 'index');
 });
-
 
 Route::get('/checkout', function () {
     return view('checkout');
