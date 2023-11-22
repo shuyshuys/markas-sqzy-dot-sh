@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\BookingController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,3 +25,6 @@ Route::get('/checkout', function () {
 Route::get('/event/reservation', function () {
     return view('reservation');
 });
+
+Route::resource('booking', BookingController::class);
+
