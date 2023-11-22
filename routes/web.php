@@ -3,7 +3,7 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookingController;
-use App\Http\Controllers\BookingSceduleController;
+use App\Http\Controllers\BookingScheduleController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,8 +32,8 @@ Route::get('/event/reservation', function () {
     return view('reservation');
 });
 
-Route::controller(BookingSceduleController::class)->group(function () {
-    Route::get('/booking/sceduling', 'index');
+Route::controller(BookingScheduleController::class)->group(function () {
+    Route::get('/booking/scheduling', 'pages');
 });
 
 Route::resource('/booking', BookingController::class);
