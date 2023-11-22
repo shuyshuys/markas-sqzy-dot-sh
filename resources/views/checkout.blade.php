@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Checkout</title>
   @vite('resources/css/app.css')
- 
+
 </head>
 <body>
   <div class="bg-[rgba(255, 255, 255, 1)]">
@@ -35,8 +35,8 @@
         </button>
       </div>
 
-      <x-button text="Coba Button" class="mt-28"/>
-      
+
+
     </div>
   </div>
 

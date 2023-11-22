@@ -13,8 +13,8 @@
   <div class="bg-[rgba(255, 255, 255, 1)]">
     <div class="px-20 pt-7">
       <div>
-        <button style=" 
-          background-color: white; color: black; cursor: pointer; transition: all 0.3s ease-in-out; border: 1px solid black; box-shadow: 0 0 0 0 black;" onmouseover="this.style.transform='translateY(-4px) translateX(-2px)'; this.style.boxShadow='2px 5px 0 0 black';" onmouseout="this.style.transform=''; this.style.boxShadow='';" onmousedown="this.style.transform='translateY(2px) translateX(1px)'; this.style.boxShadow='0 0 0 0 black';" onmouseup="this.style.transform=''; this.style.boxShadow='';" 
+        <button style="
+          background-color: white; color: black; cursor: pointer; transition: all 0.3s ease-in-out; border: 1px solid black; box-shadow: 0 0 0 0 black;" onmouseover="this.style.transform='translateY(-4px) translateX(-2px)'; this.style.boxShadow='2px 5px 0 0 black';" onmouseout="this.style.transform=''; this.style.boxShadow='';" onmousedown="this.style.transform='translateY(2px) translateX(1px)'; this.style.boxShadow='0 0 0 0 black';" onmouseup="this.style.transform=''; this.style.boxShadow='';"
           class="px-6 py-3 rounded-2xl text-base">
          Kembali ke Pemilihan Ruangan
         </button>
@@ -34,7 +34,7 @@
 
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label font-bold mb-3">Gender</label>
-          <form action="/" class="flex font-bold">
+          <div class="flex font-bold">
             <div class="form-check mr-6">
               <input type="radio" class="form-check-input" id="radio1" name="optradio" value="male" checked>
               <label class="form-check-label" for="radio1">Male</label>
@@ -43,7 +43,7 @@
               <input type="radio" class="form-check-input" id="radio2" name="optradio" value="femele">
               <label class="form-check-label" for="radio2">Femele</label>
             </div>
-           </form>
+           </div>
         </div>
 
         <div class="mb-3">
@@ -82,9 +82,9 @@
           </button>
         </div>
 
-       
+
       </div>
-      
+
     </div>
   </div>
 

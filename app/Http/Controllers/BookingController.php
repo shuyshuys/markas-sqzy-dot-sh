@@ -47,8 +47,7 @@ class BookingController extends Controller
         $validate['approval'] = 0;
         // var_dump($validate);
         Booking::create($validate);
-        // return redirect()->route('booking/create')
-        //                 ->with('success','Product created successfully.');
+        return redirect('checkout')->with('success','Product created successfully.');
     }
 
     /**
