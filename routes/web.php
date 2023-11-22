@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\BookingController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +19,7 @@ Route::controller(HomeController::class)->group(function () {
     Route::get('/home', 'index');
 });
 
+
 Route::get('/checkout', function () {
     return view('checkout');
 });
@@ -26,3 +27,6 @@ Route::get('/checkout', function () {
 Route::get('/event/reservation', function () {
     return view('reservation');
 });
+
+Route::resource('booking', BookingController::class);
+
