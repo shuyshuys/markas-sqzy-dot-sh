@@ -8,7 +8,7 @@ use Illuminate\View\Component;
 
 class Button extends Component
 {
-
+    public string $text;
 
     /**
      * Create a new component instance.

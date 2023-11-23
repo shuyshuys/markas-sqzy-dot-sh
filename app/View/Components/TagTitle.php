@@ -8,6 +8,8 @@ use Illuminate\View\Component;
 
 class TagTitle extends Component
 {
+    public string $text;
+
     /**
      * Create a new component instance.
      */
