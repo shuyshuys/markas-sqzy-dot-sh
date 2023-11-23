@@ -13,11 +13,11 @@
   <div class="bg-[rgba(255, 255, 255, 1)]">
     <div class="px-20 pt-7">
       <div>
-        <button style="
+        <a style="
           background-color: white; color: black; cursor: pointer; transition: all 0.3s ease-in-out; border: 1px solid black; box-shadow: 0 0 0 0 black;" onmouseover="this.style.transform='translateY(-4px) translateX(-2px)'; this.style.boxShadow='2px 5px 0 0 black';" onmouseout="this.style.transform=''; this.style.boxShadow='';" onmousedown="this.style.transform='translateY(2px) translateX(1px)'; this.style.boxShadow='0 0 0 0 black';" onmouseup="this.style.transform=''; this.style.boxShadow='';"
-          class="px-6 py-3 rounded-2xl text-base">
-         Kembali ke Pemilihan Ruangan
-        </button>
+          class="px-6 py-3 rounded-2xl text-base" href="/home">
+            Kembali ke Pemilihan Ruangan
+        </a>
       </div>
 
       <div class="flex text-lg mt-8 justify-center font-bold">
