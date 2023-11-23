@@ -3,7 +3,7 @@
 
 <x-tag-title text="Home | MARKAS"/>
 
-<div style="background-image: url({{ asset('img/bg-texture.png') }});" class="w-screen fixed py-7 animate__animated animate__fadeInDown">
+<div style="background-image: url({{ asset('img/bg-texture.png') }});" class="w-screen z-[100] fixed py-7 animate__animated animate__fadeInDown">
   <div class="max-w-7xl mx-16 flex justify-between items-center xl:mx-auto md:mx-16">
     <a href="/home" class="text-3xl text-[#D90027] font-semibold">MARKAS</a>
     <ul class="flex justify-between text-xl text-[#D90027] xl:gap-8 sm:gap-6">
@@ -33,7 +33,7 @@
 </div>
 
 <div class="w-full flex gap-10 justify-center mb-8">
-  <div class="w-3/12" data-aos="zoom-in" data-aos-delay="250">
+  <a class="w-3/12" data-aos="zoom-in" data-aos-delay="250" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -45,9 +45,9 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
-  <div class="w-3/12" data-aos="zoom-in">
+  <a class="w-3/12" data-aos="zoom-in" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -59,9 +59,9 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
-  <div class="w-3/12" data-aos="zoom-in" data-aos-delay="250">
+  <a class="w-3/12" data-aos="zoom-in" data-aos-delay="250" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -73,12 +73,12 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
 </div>
 
 <div class="w-full flex gap-10 justify-center">
-  <div class="w-3/12" data-aos="zoom-in">
+  <a class="w-3/12" data-aos="zoom-in" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -90,9 +90,9 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
-  <div class="w-3/12" data-aos="zoom-in" data-aos-delay="250">
+  <a class="w-3/12" data-aos="zoom-in" data-aos-delay="250" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -104,9 +104,9 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
-  <div class="w-3/12" data-aos="zoom-in">
+  <a class="w-3/12" data-aos="zoom-in" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -118,7 +118,7 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
 
 </div>

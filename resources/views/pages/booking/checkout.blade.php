@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Checkout</title>
+  <title>Checkout | MARKAS</title>
   @vite('resources/css/app.css')
 
 </head>
