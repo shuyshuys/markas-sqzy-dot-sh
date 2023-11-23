@@ -26,7 +26,9 @@ Route::get('/event', function () {
     return view('event');
 });
 
-
+Route::get('/welcome', function () {
+    return view('welcome');
+});
 
 Route::controller(BookingScheduleController::class)->group(function () {
     Route::get('/booking/scheduling', 'pages');

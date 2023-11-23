@@ -3,8 +3,8 @@
 
 <x-tag-title text="Home | MARKAS"/>
 
-<div style="background-image: url({{ asset('img/bg-texture.png') }});" class="w-screen fixed">
-  <div class="py-5 px-20 flex justify-between">
+<div style="background-image: url({{ asset('img/bg-texture.png') }});" class="w-screen fixed py-8">
+  <div class="max-w-7xl mx-auto flex justify-between">
     <a href="/home" class="text-3xl text-[#D90027] font-semibold">MARKAS</a>
     <ul class="flex gap-10 text-xl text-[#D90027]">
       <li><a href="/home">Home</a></li>
@@ -343,8 +343,8 @@
 </div>
 
 </div>
-<div class="pb-16 bg-white">
-  <div  class="border-2 border-solid border-black mx-20 rounded-2xl py-6 px-4 flex">
+<div class="pb-16">
+  <div  class="border-2 border-solid border-black mx-20 rounded-2xl py-6 px-4 flex bg-white">
     <div class="w-5/12 ml-16">
       <h1 class="text-3xl font-bold text-[#D90027] ml-4">MARKAS</h1>
       <p class="ml-4 pt-8">MARKAS adalah tempat kolaborasi atau yang <br> lebih dikenal dengan space yang bertujuan <br> menjadi wadah tempat masyarakat melakukan <br> perintisan Startup di kota-kota seluruh <br> Indonesia maupun tempat belajar bagi para <br> peminat teknologi perusahaan digital.</p>
