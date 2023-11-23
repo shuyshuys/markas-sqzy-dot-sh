@@ -8,21 +8,20 @@
 <body>
 <h3>Hey {{$name}},</h3>
 
-<p>Only one hour until {{$event}}! Are you ready?</p>
 <p>Terimakasih sudah melakukan booking di markas.</p>
 <p>Berikut detail acara yang diajukan:</p>
 <ul>
     <li>
-        Nama Pembuat Acara: $name
+        Nama Pembuat Acara: {{$name}}
     </li>
     <li>
-        Perusahaan: $company
+        Perusahaan: {{$company}}
     </li>
     <li>
-        Nama Event: $event_name
+        Nama Event: {{$event_name}}
     </li>
     <li>
-        Deskripsi Event: $description
+        Deskripsi Event: {{$description}}
     </li>
 </ul>
 
