@@ -3,7 +3,7 @@
 
 <x-tag-title text="Home | MARKAS"/>
 
-<div style="background-image: url({{ asset('img/bg-texture.png') }});" class="w-screen fixed py-7">
+<div style="background-image: url({{ asset('img/bg-texture.png') }});" class="w-screen fixed py-7 animate__animated animate__fadeInDown">
   <div class="max-w-7xl mx-16 flex justify-between items-center xl:mx-auto md:mx-16">
     <a href="/home" class="text-3xl text-[#D90027] font-semibold">MARKAS</a>
     <ul class="flex justify-between text-xl text-[#D90027] xl:gap-8 sm:gap-6">
@@ -18,11 +18,11 @@
 </div>
 
 <div class="bg-black h-screen flex flex-col justify-center">
-  <h1 class="text-7xl text-center font-semibold text-white mt">MARKAS</h1>
-  <p class="text-2xl text-center text-white mt-10">A hub for startup founders to grow with the ecosystem.</p>
+  <h1 class="text-7xl text-center font-semibold text-white mt animate__animated animate__backInDown">MARKAS</h1>
+  <p class="text-2xl text-center text-white mt-10 animate__animated animate__backInLeft">A hub for startup founders to grow with the ecosystem.</p>
 </div>
 
-<div class="bg-[#D90027]">
+<div class="bg-[#D90027]" data-aos="flip-up">
   <h1 class="text-white text-3xl py-5 font-semibold text-center">GAIN KNOWLEDGE - GET MENTORED - EXPAND NETWORK</h1>
 </div>
 
@@ -33,7 +33,7 @@
 </div>
 
 <div class="w-full flex gap-10 justify-center mb-8">
-  <div class="w-3/12">
+  <div class="w-3/12" data-aos="zoom-in" data-aos-delay="250">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -47,7 +47,7 @@
     </div>
   </div>
 
-  <div class="w-3/12">
+  <div class="w-3/12" data-aos="zoom-in">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -61,7 +61,7 @@
     </div>
   </div>
 
-  <div class="w-3/12">
+  <div class="w-3/12" data-aos="zoom-in" data-aos-delay="250">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -78,7 +78,7 @@
 </div>
 
 <div class="w-full flex gap-10 justify-center">
-  <div class="w-3/12">
+  <div class="w-3/12" data-aos="zoom-in">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -92,7 +92,7 @@
     </div>
   </div>
 
-  <div class="w-3/12">
+  <div class="w-3/12" data-aos="zoom-in" data-aos-delay="250">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -106,7 +106,7 @@
     </div>
   </div>
 
-  <div class="w-3/12">
+  <div class="w-3/12" data-aos="zoom-in">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -275,7 +275,7 @@
       <div class="w-6/12">
         <div class="text-white">
           <div class="flex items-center">
-            <img src="{{ asset('img/profil.png') }}" alt="" class="w-20 h-20">
+            <img src="{{ asset('img/profil2.png') }}" alt="" class="w-20 h-20">
             <div class="ml-8">
               <h1 class="font-bold text-2xl">Lexi Handi Nayana</h1>
               <p class="text-slate-200 pt-3">BuddyP2P - Hamburg, Jerman</p>
@@ -294,7 +294,7 @@
      <div class="w-6/12">
         <div class="text-white">
           <div class="flex items-center">
-            <img src="{{ asset('img/profil2.png') }}" alt="" class="w-20 h-20">
+            <img src="{{ asset('img/profil.png') }}" alt="" class="w-20 h-20">
             <div class="ml-8">
               <h1 class="font-bold text-2xl">David Nasrulloh</h1>
               <p class="text-slate-200 pt-3">Elux Space - Malang, Jawa Timur</p>
