@@ -273,40 +273,45 @@
 
     <div class="w-full flex pt-14">
       <div class="w-6/12">
-        <div class="text-white">
-          <div class="flex items-center">
-            <img src="{{ asset('img/profil2.png') }}" alt="" class="w-20 h-20">
-            <div class="ml-8">
-              <h1 class="font-bold text-2xl">Lexi Handi Nayana</h1>
-              <p class="text-slate-200 pt-3">BuddyP2P - Hamburg, Jerman</p>
-            </div>
+        <div class="w-fit mx-auto">
+            <div class="text-white">
+                <div class="flex items-center">
+                  <img src="{{ asset('img/profil2.png') }}" alt="" class="w-20 h-20">
+                  <div class="ml-8">
+                    <h1 class="font-bold text-2xl">Lexi Handi Nayana</h1>
+                    <p class="text-slate-200 pt-3">BuddyP2P - Hamburg, Jerman</p>
+                  </div>
 
-         </div>
+               </div>
 
-        </div>
+              </div>
 
-        <div class="text-white pt-6">
-          <h1 class="text-2xl">⭐ ⭐ ⭐ ⭐ ⭐</h1>
-          <p class="text-xl text-slate-200 pt-3">Kami memulai perjalanan kami di MARKAS dan <br> tidak pernah menyesalinya. Tempat yang penuh <br> dengan sumber daya dan inspirasi.</p>
+              <div class="text-white pt-6">
+                <h1 class="text-2xl">⭐ ⭐ ⭐ ⭐ ⭐</h1>
+                <p class="text-xl text-slate-200 pt-3">Kami memulai perjalanan kami di MARKAS dan <br> tidak pernah menyesalinya. Tempat yang penuh <br> dengan sumber daya dan inspirasi.</p>
+              </div>
         </div>
       </div>
 
      <div class="w-6/12">
-        <div class="text-white">
-          <div class="flex items-center">
-            <img src="{{ asset('img/profil.png') }}" alt="" class="w-20 h-20">
-            <div class="ml-8">
-              <h1 class="font-bold text-2xl">David Nasrulloh</h1>
-              <p class="text-slate-200 pt-3">Elux Space - Malang, Jawa Timur</p>
-            </div>
 
-        </div>
+        <div class="w-fit mx-auto">
+            <div class="text-white">
+                <div class="flex items-center">
+                  <img src="{{ asset('img/profil.png') }}" alt="" class="w-20 h-20">
+                  <div class="ml-8">
+                    <h1 class="font-bold text-2xl">David Nasrulloh</h1>
+                    <p class="text-slate-200 pt-3">Elux Space - Malang, Jawa Timur</p>
+                  </div>
 
-        </div>
+              </div>
 
-        <div class="text-white pt-6">
-          <h1 class="text-2xl">⭐ ⭐ ⭐ ⭐ ⭐</h1>
-          <p class="text-xl text-slate-200 pt-3">Kami memulai perjalanan kami di MARKAS dan <br> tidak pernah menyesalinya. Tempat yang penuh <br> dengan sumber daya dan inspirasi.</p>
+              </div>
+
+              <div class="text-white pt-6">
+                <h1 class="text-2xl">⭐ ⭐ ⭐ ⭐ ⭐</h1>
+                <p class="text-xl text-slate-200 pt-3">Kami memulai perjalanan kami di MARKAS dan <br> tidak pernah menyesalinya. Tempat yang penuh <br> dengan sumber daya dan inspirasi.</p>
+              </div>
         </div>
       </div>
       </div>
