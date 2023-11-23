@@ -3,7 +3,7 @@
 
 <x-tag-title text="Home | MARKAS"/>
 
-<div style="background-image: url({{ asset('img/bg-texture.png') }});" class="w-screen fixed py-7 animate__animated animate__fadeInDown">
+<div style="background-image: url({{ asset('img/bg-texture.png') }});" class="w-screen z-[100] fixed py-7 animate__animated animate__fadeInDown">
   <div class="max-w-7xl mx-16 flex justify-between items-center xl:mx-auto md:mx-16">
     <a href="/home" class="text-3xl text-[#D90027] font-semibold">MARKAS</a>
     <ul class="flex justify-between text-xl text-[#D90027] xl:gap-8 sm:gap-6">
@@ -33,7 +33,7 @@
 </div>
 
 <div class="w-full flex gap-10 justify-center mb-8">
-  <div class="w-3/12" data-aos="zoom-in" data-aos-delay="250">
+  <a class="w-3/12" data-aos="zoom-in" data-aos-delay="250" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -45,9 +45,9 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
-  <div class="w-3/12" data-aos="zoom-in">
+  <a class="w-3/12" data-aos="zoom-in" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -59,9 +59,9 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
-  <div class="w-3/12" data-aos="zoom-in" data-aos-delay="250">
+  <a class="w-3/12" data-aos="zoom-in" data-aos-delay="250" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -73,12 +73,12 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
 </div>
 
 <div class="w-full flex gap-10 justify-center">
-  <div class="w-3/12" data-aos="zoom-in">
+  <a class="w-3/12" data-aos="zoom-in" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -90,9 +90,9 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
-  <div class="w-3/12" data-aos="zoom-in" data-aos-delay="250">
+  <a class="w-3/12" data-aos="zoom-in" data-aos-delay="250" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -104,9 +104,9 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
-  <div class="w-3/12" data-aos="zoom-in">
+  <a class="w-3/12" data-aos="zoom-in" href="/booking/create">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
 
@@ -118,7 +118,7 @@
       <h1 class="mx-2 my-2">SURABAYA</h1>
       <h1  class="mx-2 my-2">SEPTEMBER 2023</h1>
     </div>
-  </div>
+  </a>
 
 
 </div>
@@ -273,40 +273,45 @@
 
     <div class="w-full flex pt-14">
       <div class="w-6/12">
-        <div class="text-white">
-          <div class="flex items-center">
-            <img src="{{ asset('img/profil2.png') }}" alt="" class="w-20 h-20">
-            <div class="ml-8">
-              <h1 class="font-bold text-2xl">Lexi Handi Nayana</h1>
-              <p class="text-slate-200 pt-3">BuddyP2P - Hamburg, Jerman</p>
-            </div>
+        <div class="w-fit mx-auto">
+            <div class="text-white">
+                <div class="flex items-center">
+                  <img src="{{ asset('img/profil2.png') }}" alt="" class="w-20 h-20">
+                  <div class="ml-8">
+                    <h1 class="font-bold text-2xl">Lexi Handi Nayana</h1>
+                    <p class="text-slate-200 pt-3">BuddyP2P - Hamburg, Jerman</p>
+                  </div>
 
-         </div>
+               </div>
 
-        </div>
+              </div>
 
-        <div class="text-white pt-6">
-          <h1 class="text-2xl">⭐ ⭐ ⭐ ⭐ ⭐</h1>
-          <p class="text-xl text-slate-200 pt-3">Kami memulai perjalanan kami di MARKAS dan <br> tidak pernah menyesalinya. Tempat yang penuh <br> dengan sumber daya dan inspirasi.</p>
+              <div class="text-white pt-6">
+                <h1 class="text-2xl">⭐ ⭐ ⭐ ⭐ ⭐</h1>
+                <p class="text-xl text-slate-200 pt-3">Kami memulai perjalanan kami di MARKAS dan <br> tidak pernah menyesalinya. Tempat yang penuh <br> dengan sumber daya dan inspirasi.</p>
+              </div>
         </div>
       </div>
 
      <div class="w-6/12">
-        <div class="text-white">
-          <div class="flex items-center">
-            <img src="{{ asset('img/profil.png') }}" alt="" class="w-20 h-20">
-            <div class="ml-8">
-              <h1 class="font-bold text-2xl">David Nasrulloh</h1>
-              <p class="text-slate-200 pt-3">Elux Space - Malang, Jawa Timur</p>
-            </div>
 
-        </div>
+        <div class="w-fit mx-auto">
+            <div class="text-white">
+                <div class="flex items-center">
+                  <img src="{{ asset('img/profil.png') }}" alt="" class="w-20 h-20">
+                  <div class="ml-8">
+                    <h1 class="font-bold text-2xl">David Nasrulloh</h1>
+                    <p class="text-slate-200 pt-3">Elux Space - Malang, Jawa Timur</p>
+                  </div>
 
-        </div>
+              </div>
 
-        <div class="text-white pt-6">
-          <h1 class="text-2xl">⭐ ⭐ ⭐ ⭐ ⭐</h1>
-          <p class="text-xl text-slate-200 pt-3">Kami memulai perjalanan kami di MARKAS dan <br> tidak pernah menyesalinya. Tempat yang penuh <br> dengan sumber daya dan inspirasi.</p>
+              </div>
+
+              <div class="text-white pt-6">
+                <h1 class="text-2xl">⭐ ⭐ ⭐ ⭐ ⭐</h1>
+                <p class="text-xl text-slate-200 pt-3">Kami memulai perjalanan kami di MARKAS dan <br> tidak pernah menyesalinya. Tempat yang penuh <br> dengan sumber daya dan inspirasi.</p>
+              </div>
         </div>
       </div>
       </div>
@@ -317,8 +322,8 @@
   <h1 class="text-3xl font-bold pb-10">KAMI MENUNGGUMU DI MARKAS!</h1>
 
   <div class="w-fit mx-auto">
-    <img src="{{ asset('img/slider1.png') }}" alt="" >
-    <img src="{{ asset('img/slider2.png') }}" alt="">
+    <img src="{{ asset('img/slider1.png') }}" data-aos="fade-left" data-aos-delay="150" alt="" >
+    <img src="{{ asset('img/slider2.png') }}" data-aos="fade-right" data-aos-delay="150" alt="">
   </div>
 
    <div class="text-center">
@@ -329,7 +334,7 @@
 
   <div class="text-center">
     <h1 class="text-3xl font-bold pb-10">PROGRAM AND PARTNER</h1>
-    <img src="{{ asset('img/sponsor.png') }}" alt="" class="mx-auto">
+    <img src="{{ asset('img/sponsor.png') }}" data-aos="fade-up" data-aos-duration="1100" alt="" class="mx-auto">
 
     <p class="text-2xl mt-44">Ingin bekerja di tempat yang nyaman, fleksibel, dan penuh inspirasi? </p>
     <p class="text-2xl pt-4">Segera bergabung bersama kami di  <span class="text-[#D90027] text-2xl font-bold ml-2">#MARKAS</span></p>
@@ -342,7 +347,7 @@
 
 </div>
 <div class="mb-16 mt-52">
-  <div  class="max-w-7xl mx-16 border-2 border-solid border-black rounded-2xl py-6 px-4 flex bg-white xl:mx-auto">
+  <div data-aos="flip-up" data-aos-duration="1150" class="max-w-7xl mx-16 border-2 border-solid border-black rounded-2xl py-6 px-4 flex bg-white xl:mx-auto">
     <div class="w-5/12 ml-16">
       <h1 class="text-3xl font-bold text-[#D90027] ml-4">MARKAS</h1>
       <p class="ml-4 pt-8">

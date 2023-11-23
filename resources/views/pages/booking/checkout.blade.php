@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Checkout</title>
+  <title>Checkout | MARKAS</title>
   @vite('resources/css/app.css')
 
 </head>
@@ -14,9 +14,9 @@
   <div class="bg-white">
     <div class="px-20 pt-7">
       <div>
-        <button class="selectbutton px-6 py-3 rounded-2xl text-base">
-         Kembali ke Pemilihan Ruangan
-        </button>
+        <a class="selectbutton px-6 py-3 rounded-2xl text-base" href="/home">
+            Kembali ke Pemilihan Ruangan
+        </a>
       </div>
 
       <div class="flex text-lg mt-8 justify-center font-bold">
@@ -31,7 +31,7 @@
       </div>
 
       <div class="flex justify-center mt-28">
-        <a class="backbutton py-3 rounded-2xl bg-[#D90027] text-white px-10 text-lg" href="/welcome">
+        <a class="backbutton py-3 rounded-2xl bg-[#D90027] text-white px-10 text-lg" href="/home">
          Kembali ke beranda
         </a>
       </div>
