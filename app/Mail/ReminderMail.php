@@ -38,7 +38,10 @@ class ReminderMail extends Mailable
     {
         return new Content(
             view: 'mail.reminder-email',
-            with: ['name' => $this->name]
+            with: ['name' => $this->name,
+                'company' => $this->company,
+                'event_name' => $this->event_name,
+                'description' => $this->description,]
         );
     }
 
