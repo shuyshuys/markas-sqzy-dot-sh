@@ -27,6 +27,7 @@
 </div>
 
 <div class="bg-[#D90027]">
+
 <h1 class="text-white text-3xl py-5 font-semibold text-center">GAIN KNOWLEDGE - GET MENTORED - EXPAND NETWORK</h1>
 </div>
 
