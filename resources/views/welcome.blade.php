@@ -11,11 +11,11 @@
   <div style="background-image: url({{ asset('img/bg-texture.png') }});">
     <div>
       <div class="py-5 px-20 flex justify-between">
-  
+
         <a href="index.html" class="text-3xl text-[#D90027] font-semibold">MARKAS</a>
-         
+
         <ul class="flex gap-10 text-xl text-[#D90027]">
-        
+
           <li>
             <a href="index.html">Home</a>
           </li>
@@ -41,7 +41,7 @@
           </li>
         </ul>
       </div>
-      
+
     </div>
 
     <div class="bg-black py-40">
@@ -67,7 +67,7 @@
         <div class="w-3/12">
           <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
           </div>
-          
+
           <div class="border-2 border-solid border-black">
           <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
           </div>
@@ -81,7 +81,7 @@
         <div class="w-3/12">
           <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
           </div>
-          
+
           <div class="border-2 border-solid border-black">
           <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
           </div>
@@ -95,7 +95,7 @@
         <div class="w-3/12">
           <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
           </div>
-          
+
           <div class="border-2 border-solid border-black">
           <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
           </div>
@@ -112,7 +112,7 @@
         <div class="w-3/12">
           <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
           </div>
-          
+
           <div class="border-2 border-solid border-black">
           <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
           </div>
@@ -126,7 +126,7 @@
         <div class="w-3/12">
           <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
           </div>
-          
+
           <div class="border-2 border-solid border-black">
           <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
           </div>
@@ -140,7 +140,7 @@
         <div class="w-3/12">
           <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
           </div>
-          
+
           <div class="border-2 border-solid border-black">
           <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
           </div>
@@ -151,9 +151,9 @@
           </div>
         </div>
 
-        
+
       </div>
-    
+
 
       <div class="mt-16">
         <h1 class="text-2xl text-[#D90027] text-center font-semibold mb-4">
@@ -167,43 +167,43 @@
         <div class="w-3/12">
           <div style="background-image: url({{ asset('img/img1.png') }});" class="w-full h-48 bg-cover">
           </div>
-          
+
           <div class="">
           <p class="text-[#D90027] mt-2">Gain Knowledge</p>
           <h1 class="text-lg font-bold my-1">Ruang Belajar</h1>
           <p>MARKAS sangat mengedepankan kegunaan ruang untuk menunjang aktivitas penggunanya.</p>
           </div>
 
-          
+
         </div>
 
         <div class="w-3/12">
           <div style="background-image: url({{ asset('img/img2.png') }});" class="w-full h-48 bg-cover">
           </div>
-          
+
           <div class="">
           <p class="text-[#D90027] mt-2">Gain Knowledge</p>
           <h1 class="text-lg font-bold my-1">Ruang Belajar</h1>
           <p>MARKAS sangat mengedepankan kegunaan ruang untuk menunjang aktivitas penggunanya.</p>
           </div>
 
-          
+
         </div>
 
         <div class="w-3/12">
           <div style="background-image: url({{ asset('img/img3.png') }});" class="w-full h-48 bg-cover">
           </div>
-          
+
           <div class="">
           <p class="text-[#D90027] mt-2">Gain Knowledge</p>
           <h1 class="text-lg font-bold my-1">Ruang Belajar</h1>
           <p>MARKAS sangat mengedepankan kegunaan ruang untuk menunjang aktivitas penggunanya.</p>
           </div>
 
-          
+
         </div>
 
-       
+
         </div>
 
       </div>
@@ -249,8 +249,8 @@
           🧠 STRATEGIC
         </button></div>
         </div>
-        
-     
+
+
 
       <div class="text-center">
         <button class="py-1 rounded-2xl bg-white text-black px-8 text-lg mt-3  font-semibold border-black  border-2">
@@ -286,7 +286,7 @@
       </div>
 
       </div>
-      
+
       <div class="text-center">
           <button class="backbutton py-2 rounded-2xl bg-[#D90027] text-white px-8 text-lg mt-10 mb-40">
           Cari Tahu Lebih
@@ -311,9 +311,9 @@
                     <h1 class="font-bold text-2xl">Lexi Handi Nayana</h1>
                     <p class="text-slate-200 pt-3">BuddyP2P - Hamburg, Jerman</p>
                   </div>
-                  
+
                </div>
-                
+
               </div>
 
               <div class="text-white pt-6">
@@ -330,9 +330,9 @@
                     <h1 class="font-bold text-2xl">David Nasrulloh</h1>
                     <p class="text-slate-200 pt-3">Elux Space - Malang, Jawa Timur</p>
                   </div>
-                  
+
               </div>
-                
+
               </div>
 
               <div class="text-white pt-6">
@@ -395,14 +395,14 @@
               <p class="ml-4 pt-8 font-bold text-lg">PHILOSOPHY</p>
               <p class="ml-4 pt-5 font-bold text-lg">EVENTS</p>
               <p class="ml-4 pt-5 font-bold text-lg">CREDITS</p>
-              
+
             </div>
           </div>
         </div>
       </div>
 
-    
+
   </div>
-  
+
 </body>
 </html>
