@@ -3,10 +3,10 @@
 
 <x-tag-title text="Home | MARKAS"/>
 
-<div style="background-image: url({{ asset('img/bg-texture.png') }});" class="w-screen fixed py-8">
-  <div class="max-w-7xl mx-auto flex justify-between">
+<div style="background-image: url({{ asset('img/bg-texture.png') }});" class="w-screen fixed py-7">
+  <div class="max-w-7xl mx-16 flex justify-between items-center xl:mx-auto md:mx-16">
     <a href="/home" class="text-3xl text-[#D90027] font-semibold">MARKAS</a>
-    <ul class="flex gap-10 text-xl text-[#D90027]">
+    <ul class="flex justify-between text-xl text-[#D90027] xl:gap-8 sm:gap-6">
       <li><a href="/home">Home</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/philosophy">Philosophy</a></li>
@@ -17,18 +17,13 @@
   </div>
 </div>
 
-<div class="bg-black py-40">
-<h1 class="text-7xl text-center font-semibold text-white">
-  MARKAS
-</h1>
-<p class="text-2xl text-center text-white mt-10">
-  A hub for startup founders to grow with the ecosystem.
-</p>
+<div class="bg-black h-screen flex flex-col justify-center">
+  <h1 class="text-7xl text-center font-semibold text-white mt">MARKAS</h1>
+  <p class="text-2xl text-center text-white mt-10">A hub for startup founders to grow with the ecosystem.</p>
 </div>
 
 <div class="bg-[#D90027]">
-
-<h1 class="text-white text-3xl py-5 font-semibold text-center">GAIN KNOWLEDGE - GET MENTORED - EXPAND NETWORK</h1>
+  <h1 class="text-white text-3xl py-5 font-semibold text-center">GAIN KNOWLEDGE - GET MENTORED - EXPAND NETWORK</h1>
 </div>
 
 <div class="px-20">
@@ -270,13 +265,13 @@
 
 <div style="background-image: url({{ asset('img/bg-texture.png') }});">
   <div style="background-image: url({{ asset('img/shape.png') }});" class="w-full h-[570px] bg-cover">
+    <div class="max-w-7xl mx-16 xl:mx-auto">
+      <div class="pt-32">
+        <h1 class="text-3xl font-semibold text-white">APA KATA MEREKA</h1>
+        <p class="text-xl text-white pt-4">⭐ 4.6 | 30 Ulasan di Google</p>
+      </div>
 
-    <div class="pt-32 mx-20">
-      <h1 class="text-3xl font-semibold text-white">APA KATA MEREKA</h1>
-      <p class="text-xl text-white pt-4">⭐ 4.6 | 30 Ulasan di Google</p>
-    </div>
-
-    <div class="w-full flex px-20 pt-14">
+    <div class="w-full flex pt-14">
       <div class="w-6/12">
         <div class="text-white">
           <div class="flex items-center">
@@ -315,13 +310,16 @@
         </div>
       </div>
       </div>
+    </div>
 </div>
 
- <div style="background-image: url({{ asset('img/bg-texture.png') }});" class="text-center pt-24">
+ <div class="text-center pt-24">
   <h1 class="text-3xl font-bold pb-10">KAMI MENUNGGUMU DI MARKAS!</h1>
 
-  <img src="{{ asset('img/slider1.png') }}" alt="" >
-  <img src="{{ asset('img/slider2.png') }}" alt="">
+  <div class="w-fit mx-auto">
+    <img src="{{ asset('img/slider1.png') }}" alt="" >
+    <img src="{{ asset('img/slider2.png') }}" alt="">
+  </div>
 
    <div class="text-center">
     <button class="backbutton py-3 rounded-2xl bg-[#D90027] text-white px-10 text-lg mt-10 mb-40">
@@ -331,9 +329,9 @@
 
   <div class="text-center">
     <h1 class="text-3xl font-bold pb-10">PROGRAM AND PARTNER</h1>
-    <img src="{{ asset('img/sponsor.png') }}" alt="">
+    <img src="{{ asset('img/sponsor.png') }}" alt="" class="mx-auto">
 
-    <p class="text-2xl">Ingin bekerja di tempat yang nyaman, fleksibel, dan penuh inspirasi? </p>
+    <p class="text-2xl mt-44">Ingin bekerja di tempat yang nyaman, fleksibel, dan penuh inspirasi? </p>
     <p class="text-2xl pt-4">Segera bergabung bersama kami di  <span class="text-[#D90027] text-2xl font-bold ml-2">#MARKAS</span></p>
 
     <div class="flex justify-center pt-12 pb-24">
@@ -343,11 +341,13 @@
 </div>
 
 </div>
-<div class="pb-16">
-  <div  class="border-2 border-solid border-black mx-20 rounded-2xl py-6 px-4 flex bg-white">
+<div class="mb-16 mt-52">
+  <div  class="max-w-7xl mx-16 border-2 border-solid border-black rounded-2xl py-6 px-4 flex bg-white xl:mx-auto">
     <div class="w-5/12 ml-16">
       <h1 class="text-3xl font-bold text-[#D90027] ml-4">MARKAS</h1>
-      <p class="ml-4 pt-8">MARKAS adalah tempat kolaborasi atau yang <br> lebih dikenal dengan space yang bertujuan <br> menjadi wadah tempat masyarakat melakukan <br> perintisan Startup di kota-kota seluruh <br> Indonesia maupun tempat belajar bagi para <br> peminat teknologi perusahaan digital.</p>
+      <p class="ml-4 pt-8">
+          MARKAS adalah tempat kolaborasi atau yang <br> lebih dikenal dengan space yang bertujuan <br> menjadi wadah tempat masyarakat melakukan <br> perintisan Startup di kota-kota seluruh <br> Indonesia maupun tempat belajar bagi para <br> peminat teknologi perusahaan digital.
+      </p>
     </div>
     <div class="w-6/12 flex gap-24">
       <div class="w-2/12">
@@ -357,21 +357,21 @@
         <p class="ml-4 pt-5 font-bold text-lg">BANDUNG</p>
         <p class="ml-4 pt-5 font-bold text-lg">DENPASAR</p>
       </div>
-
+  
       <div class="w-2/12">
         <h1 class="text-lg font-semibold text-[#D90027] ml-4">CONTACT</h1>
         <p class="ml-4 pt-8 font-bold text-lg">BOOKING</p>
         <p class="ml-4 pt-5 font-bold text-lg">FAQ</p>
       </div>
-
+  
       <div class="w-2/12">
         <h1 class="text-lg font-semibold text-[#D90027] ml-4">ABOUT</h1>
         <p class="ml-4 pt-8 font-bold text-lg">PHILOSOPHY</p>
         <p class="ml-4 pt-5 font-bold text-lg">EVENTS</p>
         <p class="ml-4 pt-5 font-bold text-lg">CREDITS</p>
-        
       </div>
     </div>
   </div>
+</div>
 
 @endsection()
