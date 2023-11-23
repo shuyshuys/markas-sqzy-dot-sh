@@ -295,17 +295,110 @@
       </div>
 
       <div style="background-image: url({{ asset('img/bg-texture.png') }});">
-        <div style="background-image: url({{ asset('img/shape.png') }});" class="w-full h-[400px] bg-cover">
+        <div style="background-image: url({{ asset('img/shape.png') }});" class="w-full h-[570px] bg-cover">
 
-          <div class="pt-28 mx-20">
-          <h1 class="text-3xl font-semibold text-white">APA KATA MEREKA</h1>
-          <p class="text-lg text-white pt-4">⭐ 4.6 | 30 Ulasan di Google</p>
+          <div class="pt-32 mx-20">
+            <h1 class="text-3xl font-semibold text-white">APA KATA MEREKA</h1>
+            <p class="text-xl text-white pt-4">⭐ 4.6 | 30 Ulasan di Google</p>
+          </div>
+
+          <div class="w-full flex px-20 pt-14">
+            <div class="w-6/12">
+              <div class="text-white">
+                <div class="flex items-center">
+                  <img src="{{ asset('img/profil.png') }}" alt="" class="w-20 h-20">
+                  <div class="ml-8">
+                    <h1 class="font-bold text-2xl">Lexi Handi Nayana</h1>
+                    <p class="text-slate-200 pt-3">BuddyP2P - Hamburg, Jerman</p>
+                  </div>
+                  
+               </div>
+                
+              </div>
+
+              <div class="text-white pt-6">
+                <h1 class="text-2xl">⭐ ⭐ ⭐ ⭐ ⭐</h1>
+                <p class="text-xl text-slate-200 pt-3">Kami memulai perjalanan kami di MARKAS dan <br> tidak pernah menyesalinya. Tempat yang penuh <br> dengan sumber daya dan inspirasi.</p>
+              </div>
+            </div>
+
+           <div class="w-6/12">
+              <div class="text-white">
+                <div class="flex items-center">
+                  <img src="{{ asset('img/profil2.png') }}" alt="" class="w-20 h-20">
+                  <div class="ml-8">
+                    <h1 class="font-bold text-2xl">David Nasrulloh</h1>
+                    <p class="text-slate-200 pt-3">Elux Space - Malang, Jawa Timur</p>
+                  </div>
+                  
+              </div>
+                
+              </div>
+
+              <div class="text-white pt-6">
+                <h1 class="text-2xl">⭐ ⭐ ⭐ ⭐ ⭐</h1>
+                <p class="text-xl text-slate-200 pt-3">Kami memulai perjalanan kami di MARKAS dan <br> tidak pernah menyesalinya. Tempat yang penuh <br> dengan sumber daya dan inspirasi.</p>
+              </div>
+            </div>
+            </div>
+      </div>
+
+       <div style="background-image: url({{ asset('img/bg-texture.png') }});" class="text-center pt-24">
+        <h1 class="text-3xl font-bold pb-10">KAMI MENUNGGUMU DI MARKAS!</h1>
+
+        <img src="{{ asset('img/slider1.png') }}" alt="" >
+        <img src="{{ asset('img/slider2.png') }}" alt="">
+
+         <div class="text-center">
+          <button class="backbutton py-3 rounded-2xl bg-[#D90027] text-white px-10 text-lg mt-10 mb-40">
+          Kunjungi Instagram Kami
+          </button>
+        </div>
+
+        <div class="text-center">
+          <h1 class="text-3xl font-bold pb-10">PROGRAM AND PARTNER</h1>
+          <img src="{{ asset('img/sponsor.png') }}" alt="">
+
+          <p class="text-2xl">Ingin bekerja di tempat yang nyaman, fleksibel, dan penuh inspirasi? </p>
+          <p class="text-2xl pt-4">Segera bergabung bersama kami di  <span class="text-[#D90027] text-2xl font-bold ml-2">#MARKAS</span></p>
+
+          <div class="flex justify-center pt-12 pb-24">
+          <img src="{{ asset('img/logo.png') }}" alt="">
           </div>
         </div>
       </div>
 
-      <div class="mt-40">
+      </div>
+      <div style="background-image: url({{ asset('img/bg-texture.png') }});" class="pb-16">
+        <div  class="border-2 border-solid border-black mx-20 rounded-2xl py-6 px-4 flex">
+          <div class="w-5/12 ml-16">
+            <h1 class="text-3xl font-bold text-[#D90027] ml-4">MARKAS</h1>
+            <p class="ml-4 pt-8">MARKAS adalah tempat kolaborasi atau yang <br> lebih dikenal dengan space yang bertujuan <br> menjadi wadah tempat masyarakat melakukan <br> perintisan Startup di kota-kota seluruh <br> Indonesia maupun tempat belajar bagi para <br> peminat teknologi perusahaan digital.</p>
+          </div>
+          <div class="w-6/12 flex gap-24">
+            <div class="w-2/12">
+              <h1 class="text-lg font-semibold text-[#D90027] ml-4">REGIONAL</h1>
+              <p class="ml-4 pt-8 font-bold text-lg">SURABAYA</p>
+              <p class="ml-4 pt-5 font-bold text-lg">JAKARTA</p>
+              <p class="ml-4 pt-5 font-bold text-lg">BANDUNG</p>
+              <p class="ml-4 pt-5 font-bold text-lg">DENPASAR</p>
+            </div>
 
+            <div class="w-2/12">
+              <h1 class="text-lg font-semibold text-[#D90027] ml-4">CONTACT</h1>
+              <p class="ml-4 pt-8 font-bold text-lg">BOOKING</p>
+              <p class="ml-4 pt-5 font-bold text-lg">FAQ</p>
+            </div>
+
+            <div class="w-2/12">
+              <h1 class="text-lg font-semibold text-[#D90027] ml-4">ABOUT</h1>
+              <p class="ml-4 pt-8 font-bold text-lg">PHILOSOPHY</p>
+              <p class="ml-4 pt-5 font-bold text-lg">EVENTS</p>
+              <p class="ml-4 pt-5 font-bold text-lg">CREDITS</p>
+              
+            </div>
+          </div>
+        </div>
       </div>
 
     
