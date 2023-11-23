@@ -11,7 +11,7 @@
       <li><a href="/about">About</a></li>
       <li><a href="/philosophy">Philosophy</a></li>
       <li><a href="/event">Events</a></li>
-      <li><a href="/booking">Booking</a></li>
+      <li><a href="/booking/create">Booking</a></li>
       <li><a href="/contact">Contact Us</a></li>
     </ul>
   </div>
@@ -36,7 +36,7 @@
   <div class="w-3/12">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
-    
+
     <div class="border-2 border-solid border-black">
     <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
     </div>
@@ -50,7 +50,7 @@
   <div class="w-3/12">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
-    
+
     <div class="border-2 border-solid border-black">
     <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
     </div>
@@ -64,7 +64,7 @@
   <div class="w-3/12">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
-    
+
     <div class="border-2 border-solid border-black">
     <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
     </div>
@@ -81,7 +81,7 @@
   <div class="w-3/12">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
-    
+
     <div class="border-2 border-solid border-black">
     <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
     </div>
@@ -95,7 +95,7 @@
   <div class="w-3/12">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
-    
+
     <div class="border-2 border-solid border-black">
     <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
     </div>
@@ -109,7 +109,7 @@
   <div class="w-3/12">
     <div style="background-image: url({{ asset('img/rectangle1.png') }});" class="w-full h-52 bg-cover border-2 border-solid border-black">
     </div>
-    
+
     <div class="border-2 border-solid border-black">
     <h1 class="text-lg font-bold text-center my-2">SEKOLAH BETA HUSTLER <br> EPS. 39 - SCRUM FRAMEWORK</h1>
     </div>
@@ -120,7 +120,7 @@
     </div>
   </div>
 
-  
+
 </div>
 
 
@@ -136,43 +136,43 @@
   <div class="w-3/12">
     <div style="background-image: url({{ asset('img/img1.png') }});" class="w-full h-48 bg-cover">
     </div>
-    
+
     <div class="">
     <p class="text-[#D90027] mt-2">Gain Knowledge</p>
     <h1 class="text-lg font-bold my-1">Ruang Belajar</h1>
     <p>MARKAS sangat mengedepankan kegunaan ruang untuk menunjang aktivitas penggunanya.</p>
     </div>
 
-    
+
   </div>
 
   <div class="w-3/12">
     <div style="background-image: url({{ asset('img/img2.png') }});" class="w-full h-48 bg-cover">
     </div>
-    
+
     <div class="">
     <p class="text-[#D90027] mt-2">Gain Knowledge</p>
     <h1 class="text-lg font-bold my-1">Ruang Belajar</h1>
     <p>MARKAS sangat mengedepankan kegunaan ruang untuk menunjang aktivitas penggunanya.</p>
     </div>
 
-    
+
   </div>
 
   <div class="w-3/12">
     <div style="background-image: url({{ asset('img/img3.png') }});" class="w-full h-48 bg-cover">
     </div>
-    
+
     <div class="">
     <p class="text-[#D90027] mt-2">Gain Knowledge</p>
     <h1 class="text-lg font-bold my-1">Ruang Belajar</h1>
     <p>MARKAS sangat mengedepankan kegunaan ruang untuk menunjang aktivitas penggunanya.</p>
     </div>
 
-    
+
   </div>
 
- 
+
   </div>
 
 </div>
@@ -218,7 +218,7 @@
     🧠 STRATEGIC
   </button></div>
   </div>
-  
+
 
 
 <div class="text-center">
@@ -280,9 +280,9 @@
               <h1 class="font-bold text-2xl">Lexi Handi Nayana</h1>
               <p class="text-slate-200 pt-3">BuddyP2P - Hamburg, Jerman</p>
             </div>
-            
+
          </div>
-          
+
         </div>
 
         <div class="text-white pt-6">
@@ -299,9 +299,9 @@
               <h1 class="font-bold text-2xl">David Nasrulloh</h1>
               <p class="text-slate-200 pt-3">Elux Space - Malang, Jawa Timur</p>
             </div>
-            
+
         </div>
-          
+
         </div>
 
         <div class="text-white pt-6">
@@ -357,13 +357,13 @@
         <p class="ml-4 pt-5 font-bold text-lg">BANDUNG</p>
         <p class="ml-4 pt-5 font-bold text-lg">DENPASAR</p>
       </div>
-  
+
       <div class="w-2/12">
         <h1 class="text-lg font-semibold text-[#D90027] ml-4">CONTACT</h1>
         <p class="ml-4 pt-8 font-bold text-lg">BOOKING</p>
         <p class="ml-4 pt-5 font-bold text-lg">FAQ</p>
       </div>
-  
+
       <div class="w-2/12">
         <h1 class="text-lg font-semibold text-[#D90027] ml-4">ABOUT</h1>
         <p class="ml-4 pt-8 font-bold text-lg">PHILOSOPHY</p>
