@@ -334,7 +334,7 @@
 
   <div class="text-center">
     <h1 class="text-3xl font-bold pb-10">PROGRAM AND PARTNER</h1>
-    <img src="{{ asset('img/sponsor.png') }}" alt="" class="mx-auto">
+    <img src="{{ asset('img/sponsor.png') }}" data-aos="fade-up" data-aos-duration="1100" alt="" class="mx-auto">
 
     <p class="text-2xl mt-44">Ingin bekerja di tempat yang nyaman, fleksibel, dan penuh inspirasi? </p>
     <p class="text-2xl pt-4">Segera bergabung bersama kami di  <span class="text-[#D90027] text-2xl font-bold ml-2">#MARKAS</span></p>
@@ -347,7 +347,7 @@
 
 </div>
 <div class="mb-16 mt-52">
-  <div  class="max-w-7xl mx-16 border-2 border-solid border-black rounded-2xl py-6 px-4 flex bg-white xl:mx-auto">
+  <div data-aos="flip-up" data-aos-duration="1150" class="max-w-7xl mx-16 border-2 border-solid border-black rounded-2xl py-6 px-4 flex bg-white xl:mx-auto">
     <div class="w-5/12 ml-16">
       <h1 class="text-3xl font-bold text-[#D90027] ml-4">MARKAS</h1>
       <p class="ml-4 pt-8">
