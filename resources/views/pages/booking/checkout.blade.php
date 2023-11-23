@@ -31,7 +31,7 @@
       </div>
 
       <div class="flex justify-center mt-28">
-        <a class="backbutton py-3 rounded-2xl bg-[#D90027] text-white px-10 text-lg" href="/home">
+        <a class="backbutton py-3 rounded-2xl bg-[#D90027] text-white px-10 text-lg" href="/welcome">
          Kembali ke beranda
         </a>
       </div>

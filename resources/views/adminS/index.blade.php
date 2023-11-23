@@ -172,7 +172,14 @@
                                                 <a href="booking/{{ $ap->id }}" class="btn btn-success ">Detail</a>
                                             </td>
                                             <td>
-                                                <a href="#" class="btn btn-primary ">Setuju</a>
+                                                <form action="{{ route('booking.update', $ap->id) }}" method="post">
+                                                    @method('put')
+                                                    @csrf
+                                                    <input type="number" name="id" value="{{ $ap->id }}" class="d-none">
+                                                    <input type="number" name="approval" value="1" class="d-none">
+                                                    <button class="btn btn-primary ">Setuju</button>
+                                                </form>
+
                                                 <a href="#" class="btn btn-danger ">Tolak</a>
                                             </td>
                                         </tr>

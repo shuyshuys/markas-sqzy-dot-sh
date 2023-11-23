@@ -48,7 +48,7 @@ class BookingController extends Controller
         $validate['approval'] = 0;
         // var_dump($validate);
         Booking::create($validate);
-        return redirect('booking/checkout')->with('success','Product created successfully.');
+        return redirect('booking/checkout')->with('success','Pesan Tersampaikan.');
     }
 
     /**
@@ -72,7 +72,11 @@ class BookingController extends Controller
      */
     public function update(Request $request, Booking $booking)
     {
-        //
+        $validate['approval'] = $request->input('approval');
+        $id = $request->input('id');
+        Booking::where('id',$id)->update($validate);
+
+        return redirect('booking')->with('success','Berhasil Menyetujui.');;
     }
 
     /**
