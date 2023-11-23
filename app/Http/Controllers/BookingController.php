@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Booking;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ReminderMail;
 
 class BookingController extends Controller
 {
@@ -75,6 +77,14 @@ class BookingController extends Controller
         $validate['approval'] = $request->input('approval');
         $id = $request->input('id');
         Booking::where('id',$id)->update($validate);
+
+        $name = Booking::where('id',$id)->pluck('name')->first();
+        $email = Booking::where('id', $id)->pluck('email')->first();
+        $event_name = Booking::where('id', $id)->pluck('event_name');
+        $company = Booking::where('id', $id)->pluck('company');
+        $description = Booking::where('id', $id)->pluck('description');
+
+        Mail::to($email)->send(new ReminderMail($name, $company, $event_name, $description));
 
         return redirect('booking')->with('success','Berhasil Menyetujui.');;
     }
