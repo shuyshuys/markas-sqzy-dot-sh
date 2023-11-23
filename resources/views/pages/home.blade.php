@@ -322,8 +322,8 @@
   <h1 class="text-3xl font-bold pb-10">KAMI MENUNGGUMU DI MARKAS!</h1>
 
   <div class="w-fit mx-auto">
-    <img src="{{ asset('img/slider1.png') }}" alt="" >
-    <img src="{{ asset('img/slider2.png') }}" alt="">
+    <img src="{{ asset('img/slider1.png') }}" data-aos="fade-left" data-aos-delay="150" alt="" >
+    <img src="{{ asset('img/slider2.png') }}" data-aos="fade-right" data-aos-delay="150" alt="">
   </div>
 
    <div class="text-center">
